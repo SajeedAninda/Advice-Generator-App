@@ -22,7 +22,7 @@ const Advice = () => {
 
     return (
         <div className='h-screen w-full bg-[#1f2632] flex justify-center items-center'>
-            <div className='bg-[#323a49] h-fit px-12 pt-12 pb-20 w-[40%] rounded-2xl flex flex-col items-center text-center relative'>
+            <div className='bg-[#323a49] h-fit px-12 pt-12 pb-20 w-[90%] lg:w-[40%] rounded-2xl flex flex-col items-center text-center relative'>
                 {loading && <p className='text-[#52ffa8] text-[20px] font-semibold tracking-[5px]'>Loading...</p>}
                 {!loading && (
                     <>
