@@ -1,8 +1,10 @@
+import Advice from "./Components/Advice";
+
 function App() {
 
   return (
     <>
-      Hi
+      <Advice></Advice>
     </>
   )
 }
